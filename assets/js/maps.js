@@ -1,12 +1,3 @@
-// Epiq Automotive
-// Google Maps JavScript API Key AIzaSyAChnDNsRW07AeJ5VNNzl4MiH6D7kGQ6Pc
-
-/* <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
-type="text/javascript"></script> */
-
-
-// Places API Key AIzaSyD-BMvomv5ztavXsOGpwZABlmm38t1DOm8
-
 var map;
       var service;
       var infowindow;
