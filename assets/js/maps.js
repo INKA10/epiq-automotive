@@ -7,13 +7,13 @@ var map;
 
         infowindow = new google.maps.InfoWindow();
 
-        // var request = {
-        //   query: 'Epiq Automotive inc',
-        //   fields: ['name', 'geometry'],
-        // };
+        var request = {
+          query: 'Epiq Automotive Inc',
+          fields: ['name', 'geometry'],
+        };
 
         map = new google.maps.Map(
-            document.getElementById('map'), {center: shop, zoom: 15});
+            document.getElementById('map'), {center: shop, zoom: 19});
 
         service = new google.maps.places.PlacesService(map);
 
