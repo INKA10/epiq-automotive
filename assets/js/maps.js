@@ -1,41 +1,35 @@
-var map;
-      var service;
-      var infowindow;
+function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 34.2083382, lng: -118.2344834},
+      zoom: 18
+    });
 
-      function initMap() {
-        var shop = new google.maps.LatLng(34.208283,-118.2366307);
+    var request = {
+      placeId: 'ChIJO48xBmzqwoARfxv3V4Ijryk',
+      fields: ['name', 'formatted_phone_number', 'formatted_address', 'place_id', 'geometry', 'opening_hours']
+    };
 
-        infowindow = new google.maps.InfoWindow();
+    var infowindow = new google.maps.InfoWindow();
+    var service = new google.maps.places.PlacesService(map);
 
-        var request = {
-          query: 'Epiq Automotive Inc',
-          fields: ['name', 'geometry'],
-        };
-
-        map = new google.maps.Map(
-            document.getElementById('map'), {center: shop, zoom: 19});
-
-        service = new google.maps.places.PlacesService(map);
-
-        service.findPlaceFromQuery(request, function(results, status) {
-          if (status === google.maps.places.PlacesServiceStatus.OK) {
-            for (var i = 0; i < results.length; i++) {
-              createMarker(results[i]);
-            }
-
-            map.setCenter(results[0].geometry.location);
-          }
-        });
-      }
-
-      function createMarker(place) {
+    service.getDetails(request, function(place, status) {
+      if (status === google.maps.places.PlacesServiceStatus.OK) {
         var marker = new google.maps.Marker({
           map: map,
           position: place.geometry.location
         });
-
         google.maps.event.addListener(marker, 'click', function() {
-          infowindow.setContent(place.name);
+            
+          infowindow.setContent('<div style="color:black;"><strong>' + 
+            place.name + '</strong><br>' +
+            place.formatted_address + '<br>' +
+            place.formatted_phone_number + '<br>' +
+            place.opening_hours.periods[1].open.time + "-" +place.opening_hours.periods[1].close.time + '</div>');
+            
           infowindow.open(map, this);
+    
         });
       }
+    });
+  }
+
