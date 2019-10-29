@@ -5,3 +5,9 @@
     background-size: cover;
     -o-background-size: cover;
   }
+
+.carousel .carousel-item {
+  width: 50%;
+  height: 100%;
+  margin-top: 30px;
+}
