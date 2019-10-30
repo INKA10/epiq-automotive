@@ -12,8 +12,10 @@
   <!-- Javascript -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Epiq Automotives</title>
 </head>
 
@@ -261,8 +263,8 @@
   </section>
 
   
-<!-- Image Carousel Holder -->
-<div class="container">
+    <!-- Image Carousel Holder -->
+    <div class="container">
         <h3 class="center">Check out our shop!</h3>
             <div class="carousel " id="car-carousel">
                 <a class="carousel-item responsive-img" href="#one"><img src="https://source.unsplash.com/1600x900/?beach"></a>
@@ -278,7 +280,7 @@
                 <a class="carousel-item responsive-img" href="#eleven"><img src="https://source.unsplash.com/1600x900/?bridge"></a>
                 <a class="carousel-item responsive-img" href="#twelve"><img src="https://source.unsplash.com/1600x900/?beach, travel,boat"></a>
             </div>
-</div>
+    </div>
 
   <!-- Section: Contact -->
   <section id="contact" class="section section-contact scrollspy">
@@ -324,45 +326,68 @@
 
 
 
+
+
+
+
   <!-- Footer -->
   <footer class="section red darken-2 white-text center">
     <p class="flow-text">Epiq Automotives &copy; 2019 </p>
   </footer>
 
+
+
+
+
+
+
   <!-- Javascript -->
   <script>
-    // Sidenav
-    const sideNav = document.querySelector('.sidenav');
-    M.Sidenav.init(sideNav, {});
+        // Sidenav
+        const sideNav = document.querySelector('.sidenav');
+        M.Sidenav.init(sideNav, {});
 
-    // Slider
-    const slider = document.querySelector('.slider');
-    M.Slider.init(slider, {
-      indicators: false,
-      height: 500,
-      transition: 500,
-      interval: 6000
-    });
-
-
-// modal script
-
-$(document).ready(function(){
-          $('.modal').modal();
+        // Slider
+        const slider = document.querySelector('.slider');
+        M.Slider.init(slider, {
+        indicators: false,
+        height: 500,
+        transition: 500,
+        interval: 6000
         });
 
-
-    // Material Boxed
-    const mb = document.querySelectorAll('.materialboxed');
-    M.Materialbox.init(mb, {});
-
-    // ScrollSpy
-    const ss = document.querySelectorAll('.scrollspy');
-    M.ScrollSpy.init(ss, {});
+        // modal script
+        $(document).ready(function(){
+                $('.modal').modal();
+                });
 
 
+        // Material Boxed
+        const mb = document.querySelectorAll('.materialboxed');
+        M.Materialbox.init(mb, {});
 
-  </script>
+        // ScrollSpy
+        const ss = document.querySelectorAll('.scrollspy');
+        M.ScrollSpy.init(ss, {});
+        
+        //Vehicle Maintenance API
+        //Vehicle Maintenance API Authorization
+        $.ajax({
+        "content-type":"application/json",
+        "authorization":"Basic MDE4OTcwM2UtZWVmMy00ZGU5LWFkMzAtYjMzMjI3NzRlYWVk",
+        "partner-token":"a69fba14b6b34e8f88229501cced6446"
+        });
+        
+        // function vehicleMaintenance (schedule){
+        //     var queryURL = "http://api.carmd.com/v3.0/maintlist?vin=" + userVin;
+        // }
+        //     $.ajax({
+        //     url: queryURL,
+        //     method: "GET"
+        //     }
+
+
+    </script>
     <script>
         $(document).ready(function(){
             $('#car-carousel').carousel();
