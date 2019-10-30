@@ -34,6 +34,15 @@ margin-top: 30px;
   background-color: red;
 }
 
-.input-field {
+.material-icons {
+  font-size: 59.5px;
+  color: black;
 }
 
+h4 {
+  color: black;
+}
+
+p {
+  color: black;
+}
