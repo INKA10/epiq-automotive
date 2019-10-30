@@ -13,3 +13,15 @@
   background-color: red;
 }
 
+/* Image Carousel */
+.carousel .carousel-item {
+  width: 50%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.center {
+  color: indianred;
+  font-weight: bold;
+}
+
