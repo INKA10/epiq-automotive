@@ -12,4 +12,25 @@
 .btn {
   background-color: red;
 }
+/* Background image */
+body {
+  background-image: url(../img/background.png)
+}
+
+/* Navbar styling */
+.brand-logo {
+  color: black !important;
+  font-size: 45px !important;
+  font-weight: bolder;
+}
+
+nav ul a {
+  color: black;
+  font-weight: bolder;
+}
+
+.chkRecall {
+  color: black;
+  font-weight: bolder;
+}
 
