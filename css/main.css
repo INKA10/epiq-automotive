@@ -34,6 +34,7 @@ margin-top: 30px;
   background-color: red;
 }
 
+<<<<<<< HEAD
 .material-icons {
   font-size: 59.5px;
   color: black;
@@ -46,3 +47,17 @@ h4 {
 p {
   color: black;
 }
+=======
+/* Image Carousel */
+.carousel .carousel-item {
+  width: 50%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.center {
+  color: indianred;
+  font-weight: bold;
+}
+
+>>>>>>> 9bce856a1af3242f25de2eea207da33ee4b5c3cc
