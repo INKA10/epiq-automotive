@@ -8,27 +8,27 @@ vehicles["AMC"] = ["Ambassador","AMX","Concord","Concorde","Eagle","Eagle 30","E
 
 vehicles["Aston Martin"] = ["AMV8 Vantage","Bulldog","DB AR1","DB2","DB3 Spyder","DB3S","DB4","DB5","DB6","DB7","DB9","DB9 Sports Pack","DBR1","DBR4","DBR9","DBRS9","DBS","DP212","Lagonda","Le Mans","MK II Ulster Le","Prodrive","Rapide","Type C Speed Mod","Ulster","V12 Vanquish","V8","V8 Coupe","V8 Vantage","V8 Volante","Vanquish Roadste","Vanquish S","Vantage","Virage","Zagato DB4 GT"];
 
-vehicles["Audi"] = ["100","100 C4 Series","100 V6","200","4000","5000","80","80 Cabriolet","90","A3","A4","A4 Cabriolet","A5","A6","A7","A8","Allroad","Allroad Quattro","Cabriolet","Coupe","Fox","Q5","Q7","Quattro","R8","RS 4","RS 6","S4","S6","S8","TT","V8"];
+vehicles["Audi"] = ["100","100 C4","100 V6","200","4000","5000","80","80 Cabriolet","90","A3","A4","A4 Cabriolet","A5","A6","A7","A8","Allroad","Allroad Quattro","Cabriolet","Coupe","Fox","Q5","Q7","Quattro","R8","RS 4","RS 6","S4","S6","S8","TT","V8"];
 
 vehicles["Bentley"] = ["Amage","Arnage","Azure","Brooklands","Continental","Continental Flyi","Continental GT","Continental GTC","Continental R","Eight","GT","Mulsanne","Turbo","Turbo R"];
 
-vehicles["BMW"] = ["1 Series","128","135","2000","2002","2800","3 Series","318","320","323","325","328","330","335","5 Series","525","528","530","533","535","540","545","550","6 Series","630","633","635","645","650","7 Series","733","735","740","745","750","760","840","850","Alpina","Bavaria","Isetta","L6","L7","M","M3","M5","M6","Motorcycle","X3","X5","X6","Z1","Z3","Z4","Z8"];
+vehicles["BMW"] = ["128","135","2000","2002","2800","318","320","323","325","328","330i","335","525","528","530","533","535","540","545","550","630","633","635","645","650","733","735","740","745","750","760","840","850","Alpina","Bavaria","Isetta","L6","L7","M","M3","M5","M6","X3","X5","X6","Z1","Z3","Z4","Z8"];
 
 vehicles["Buick"] = ["Allure","Apollo","Centurion","Century","Electra","Enclave","Encore","Estate wagon","Gran Sport","Grand National","Invicta","Lacrosse","LeSabre","Lucerne","Park Avenue","Rainier","Reatta","Regal","Rendezvous","Riviera","Roadmaster","Skyhawk","Skylark","Somerset","Somerset Regal","Super","Terraza","Verano","Wildcat"];
 
 vehicles["Cadillac"] = ["Allante","Biarritz","Brougham","Calais","Catera","Cimarron","Concours","Coupe de Ville","CTS","CTS Sport Wagon","CTS-V","CTS-V Wagon","Deluxe","DeVille","DHS","DTS","Eldorado","Escalade","Escalade ESV","Escalade EXT","ETC","Fleetwood","Fleetwood Brough","Sedan de Ville","Seventy-Five","Seville","Sixty Special","SLS","SRX","STS","XLR","XLR-V"];
 
-vehicles["Chevrolet"] = ["Alero","Astro","Astro Cargo","Avalanche","Aveo","Aveo 5","Beauville","Bel Air","BelAir","Beretta","Biscayne","Blazer","C/K 10 Series","C/K 1500","C/K 2500","C/K 2500 Series","C/K 3500","C1500","C2500","C3500","Camaro","Caprice","Cavalier","Celebrity","Chevelle","Chevette","Chevy Van","Chevy Van Classi","Cheyenne","Citation","CK-10","Classic","Cobalt","Colorado","Corsica","Corvair","Corvette","Coupe","Cruze","Deluxe","El Camino","Epica","Equinox","Express","Express Cargo","G1500","G2500","HHR","Impala","Impala SS","K1500","K2500","K3500","Kalos","Lacetti","Lumina","Lumina APV","LUV","Malibu","Malibu Maxx","Metro","Monte Carlo","Monza","Nomad","Nova","Optra","Optra 5","Optra Wagon","Prizm","Rezzo","S-10","S-10 Blazer","Silverado 1500","Silverado 1500 S","Silverado 1500HD","Silverado 2500","Silverado 2500HD","Silverado 3500","Sonic","Spark","Spectrum","Sportvan","Sprint","SSR","Styleline","Stylemaster","Suburban","Tacuma","Tahoe","Tahoe Limited/Z7","Tracker","Trailblazer","Trailblazer EXT","Traverse","Uplander","Vega","Venture","Volt","Z24","Z28","Z34"];
+vehicles["Chevrolet"] = ["Alero","Astro","Astro Cargo","Avalanche","Aveo","Aveo 5","Beauville","Bel Air","BelAir","Beretta","Biscayne","Blazer","C/K 10 Series","C/K 1500","C/K 2500","C/K 2500","C/K 3500","C1500","C2500","C3500","Camaro","Caprice","Cavalier","Celebrity","Chevelle","Chevette","Chevy Van","Chevy Van Classi","Cheyenne","Citation","CK-10","Classic","Cobalt","Colorado","Corsica","Corvair","Corvette","Coupe","Cruze","Deluxe","El Camino","Epica","Equinox","Express","Express Cargo","G1500","G2500","HHR","Impala","Impala SS","K1500","K2500","K3500","Kalos","Lacetti","Lumina","Lumina APV","LUV","Malibu","Malibu Maxx","Metro","Monte Carlo","Monza","Nomad","Nova","Optra","Optra 5","Optra Wagon","Prizm","Rezzo","S-10","S-10 Blazer","Silverado 1500","Silverado 1500 S","Silverado 1500HD","Silverado 2500","Silverado 2500HD","Silverado 3500","Sonic","Spark","Spectrum","Sportvan","Sprint","SSR","Styleline","Stylemaster","Suburban","Tacuma","Tahoe","Tahoe Limited/Z7","Tracker","Trailblazer","Trailblazer EXT","Traverse","Uplander","Vega","Venture","Volt","Z24","Z28","Z34"];
 
 vehicles["Chrysler"] = ["200","300","300C","300C SRT-8","300M","Aspen","Cirrus","Concorde","Conquest","Cordoba","Crossfire","Crossfire SRT-6","Daytona","Dynasty","E Class","Fifth Avenue","Grand Voyager","Imperial","Intrepid","Laser","Le Baron","LeBaron","LHS","Neon","New Yorker","Newport","Pacifica","Prowler","PT Cruiser","Royal","Saratoga","Sebring","SRT6","SRT8","Stratus","TC","Town and Country","Vision","Voyager","Windsor"];
 
 vehicles["Daewoo"] = ["Cielo","Espero","Evanda","Kalos","Korando","Lacetti","Lanos","Leganza","Matiz","Musso","Nexia","Nubira","Rezzo","Tacuma"];
 
-vehicles["Datsun"] = ["1200","1600","2000","200SX","210","240Z","260Z","280Z","280ZX","310","510","610","620","710","810","B210","F10","King Cab","Maxima","Micra","Pickup","PL720","Pulsar","Sentra","Stanza","Z-Series"];
+vehicles["Datsun"] = ["1200","1600","2000","200SX","210","240Z","260Z","280Z","280ZX","300ZX","350Z","370Z","310","510","610","620","710","810","B210","F10","King Cab","Maxima","Micra","Pickup","PL720","Pulsar","Sentra","Stanza"];
 
-vehicles["DeLorean"] = ["400","DMC Series","DMC-12"];
+vehicles["DeLorean"] = ["400","DMC","DMC-12"];
 
-vehicles["Dodge"] = ["600","Aries","Arrow","Aspen","Avenger","Caliber","Caravan","Challenger","Charger","Charger SRT-8","Colt","Conquest","Coronet","Dakota","Dart","Daytona","Diplomat","Durango","Dynasty","Fargo","Grand Caravan","Intrepid","Journey","Lancer","Magnum","Magnum SRT-8","Mini Ram Van","Mirada","Monaco","Neon","Neon SRT-4","Nitro","Omni","Omni 024","Polara","Power Wagon","Raider","Ram 100","Ram 150","Ram 1500","Ram 200","Ram 250","Ram 2500","Ram 300","Ram 350","Ram 3500","Ram Pickup 1500","Ram Pickup 2500","Ram Pickup 3500","Ram Van","Ram Wagon","RamCharger","Rampage","Royal","Saratoga","Shadow","Spirit","Sportsman Wagon","Sprinter","Sprinter Cargo","SRT4","St. Regis","Stealth","Stratus","Super Bee","SX 2.0","Van","Viper"];
+vehicles["Dodge"] = ["600","Aries","Arrow","Aspen","Avenger","Caliber","Caravan","Challenger","Charger","Charger SRT-8","Colt","Conquest","Coronet","Dakota","Dart","Daytona","Diplomat","Durango","Dynasty","Fargo","Grand Caravan","Intrepid","Journey","Lancer","Magnum","Magnum SRT-8","Mini Ram Van","Mirada","Monaco","Neon","Neon SRT-4","Nitro","Omni","Omni 024","Polara","Power Wagon","Raider","Ram","Ram 100","Ram 150","Ram 1500","Ram 200","Ram 250","Ram 2500","Ram 300","Ram 350","Ram 3500","Ram Pickup 1500","Ram Pickup 2500","Ram Pickup 3500","Ram Van","Ram Wagon","RamCharger","Rampage","Royal","Saratoga","Shadow","Spirit","Sportsman Wagon","Sprinter","Sprinter Cargo","SRT4","St. Regis","Stealth","Stratus","Super Bee","SX 2.0","Van","Viper"];
 
 vehicles["Ferrari"] = ["125","159","166","195","196","208","212","225","246","250","268","286","288","290","308","315","328","330","335","340","348","355","360","365","375","400","410","412","430","456","456M","500","512","550","575","575M","599","612","612 Scaglietti","625","712","735","860","BB512","California","Daytona","Enzo","F333 SP","F355","F360","F40","F430","F50","F550","FF","GTB","GTO","GTS","Mondial","Spider","Superamerica","Testa Rossa"];
 
@@ -38,7 +38,7 @@ vehicles["Ford"] = ["Aerostar","Anglia","Aspire","Bronco","Bronco II","C-Max","C
 
 vehicles["Geo"] = ["Metro","Prizm","Spectrum","Storm","Tracker"];
 
-vehicles["GMC"] = ["Acadia","Acadia Denali","C/K 1500 Series","C/K 2500 Series","C/K 3500 Series","Caballero","Canyon","Cyclone","Envoy","Envoy XL","Envoy XUV","Jimmy","R/V 1500 Series","R/V 2500 Series","R/V 3500 Series","RALLY Wagon","S-15","S-15 Jimmy","Safari","Safari Cargo","Savana","Savana Cargo","Sierra 1500","Sierra 1500HD","Sierra 2500","Sierra 2500HD","Sierra 3500","Sierra C3","Sierra Classic 1","Sierra Classic 2","Sierra Classic 3","Sonoma","Sprint","Suburban","Syclone","Terrian","Tracker","Typhoon","Vandura","Yukon","Yukon Denali","Yukon XL"];
+vehicles["GMC"] = ["Acadia","Acadia Denali","C/K 1500","C/K 2500","C/K 3500","Caballero","Canyon","Cyclone","Envoy","Envoy XL","Envoy XUV","Jimmy","R/V 1500","R/V 2500","R/V 3500","RALLY Wagon","S-15","S-15 Jimmy","Safari","Safari Cargo","Savana","Savana Cargo","Sierra 1500","Sierra 1500HD","Sierra 2500","Sierra 2500HD","Sierra 3500","Sierra C3","Sierra Classic 1","Sierra Classic 2","Sierra Classic 3","Sonoma","Sprint","Suburban","Syclone","Terrian","Tracker","Typhoon","Vandura","Yukon","Yukon Denali","Yukon XL"];
 
 vehicles["Honda"] =["Accord","Civic","Civic CRX","Civic Del Sol","Civic Hybrid","Civic Si","Crosstour","CR-V","CRX","CR-Z","Element","Fit","FCX Clarity","FR-V","HR-V","Insight","Motorcycle","Odyssey","Passport","Pilot","Prelude","Ridgeline","S2000","S600","S800","Stream"];
 
@@ -72,7 +72,7 @@ vehicles["Maybach"] = ["57","62"];
 
 vehicles["Mazda"] = ["2","3","323","5","6","6 Sport Wagon","616","626","929","B2000","B2200","B2300","B2500","B2600","B3000","B4000","Bravo 2600","Cosmo","CX-5","CX-7","CX-9","GLC","Mazda3","Mazda6","Millenia","MPV","MX-3","MX-5 Miata","MX-6","Navajo","Protege","Protege5","RX-3","RX-4","RX-7","RX-8","Tribute","Truck"];
 
-vehicles["Mercedes-Benz"] = ["190-Class","240-Class","260-Class","280-Class","300-Class","350-Class","400-Class","420-Class","450-Class","500-Class","560-Class","600-Class","A-Class","B-Class","C-Class","C32 AMG","C36 AMG","C43 AMG","C55 AMG","CL-Class","CL55 AMG","CL65 AMG","CLK-Class","CLK55 AMG","CLS-Class","E-Class","E55 AMG","G-Class","GL-Class","GLK-Class","G55 AMG","M-Class","ML55 AMG","R-Class","S-Class","S55 AMG","SL-Class","SL55 AMG","SL65 AMG","SLK-Class","SLK32 AMG","SLK55 AMG","SLR McLaren","SLS-Class","Viano Van"];
+vehicles["Mercedes-Benz"] = ["190","240","260","280","300","350","400","420","450","500","560","600","C32","C36","C43","C55","CL","CL55","CL65","CLK","CLK55","CLS","E","E55","G","GL","GLK","G55","M","ML55","R","S","S55","SL","SL55","SL65","SLK","SLK32","SLK55","SLR McLaren","SLS","Viano Van"];
 
 vehicles["Mercury"] = ["Bobcat","Capri","Colony Park","Comet","Cougar","Cyclone","Grand Marquis","LN7","Lynx","Marauder","Mariner","Marquis","Meteor","Milan","Monarch","Monclair","Montego","Monterey","Mountaineer","Mystique","Park Lane","Sable","Topaz","Tracer","Turnpike","Villager","Zephyr"];
 
@@ -154,35 +154,48 @@ jq(document).ready(function(){
     // var carYear = "2012";
     // var carMake = "Honda";
     // var carModel = "Accord";
-    var response = {};
 	
 	jq("#my_form").submit(function(event){
 		event.preventDefault();
 		var carYear = jq('.year option:selected').attr('value');
-		console.log(carYear);
+		// console.log(carYear);
 		var carMake = jq('.make option:selected').attr('value');
-		console.log(carMake);
+		// console.log(carMake);
 		var carModel = jq('.model option:selected').attr('value');
-		console.log(carModel);
-		
-	if (!carYear || !carMake || !carModel) {
-		jq(".recallOutput").text("Please enter a year, make and model.")
-	} else {
-		jq.ajax({
-			url: "https://one.nhtsa.gov/webapi/api/Recalls/vehicle/modelyear/" + carYear + "/make/" + carMake + "/model/" + carModel + "?format=json",
-			method: "GET",
-			dataType: 'JSONP',
-			crossDomain: true,
-		}).then(function(response) {
-			if (response.Message === "No results found for this request") {
-				jq(".recallOutput").text("No recalls found for your " + carYear + " " + carMake + " " + carModel);
-			} else {
-			// Handle API response - Diplay inside of modal
-			console.log(response);
-			jq(".recallOutput").text("These are the recalls for your " + carYear + " " + carMake + " " + carModel+ ":" + "\n" +response.Results[0].Component + "\n" +response.Results[0].Conequence);
-		}
-		});
+		// console.log(carModel);
 
-		}
+		var d = new Date();
+		var n = d.getFullYear();
+		
+		if (!carYear || !carMake || !carModel) {
+			jq(".recallOutput").text("Please enter a year, make and model.")
+		} else if (carYear > n + 1 ) {
+			jq(".recallOutput").text("This model is not out yet. Pick a different year.")
+		} else {
+				jq.ajax({
+					url: "https://one.nhtsa.gov/webapi/api/Recalls/vehicle/modelyear/" + carYear + "/make/" + carMake + "/model/" + carModel + "?format=json",
+					method: "GET",
+					dataType: 'JSONP',
+					crossDomain: true,
+				}).then(function(response) {
+					if (response.Message === "No results found for this request") {
+						jq(".recallOutput").text("No recalls found for your " + carYear + " " + carMake + " " + carModel);
+					} else {
+						// Handle API response - Diplay inside of modal
+						console.log(response);
+						
+						// jq(".recallOutput").text("These are" + " " + response.Count + " " + "recalls for your " + carYear + " " + carMake + " " + carModel+ ":" + "\n" +response.Results[0].Component + "\n" +response.Results[0].Conequence);
+
+						jq(".recallOutput").text("There are" + " " + response.Count + " " + "recalls for your " + carYear + " " + carMake + " " + carModel + "\n" );
+
+						var i;
+						for (i = 0; i < response.Results.length; i++ ) {
+							var component = response.Results[i].Component;
+							var consequence = response.Results[i].Conequence;
+							jq(".recallOutput").append(`\n${component}\n${consequence}\n`);
+						}
+					}
+				});
+			}
 	});
 });

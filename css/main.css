@@ -89,6 +89,7 @@ p {
   border:none; 
   outline:none;
   height:200px;
+  overflow: auto;
 }
 .select-css {
   display: block;
