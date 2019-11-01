@@ -178,6 +178,7 @@
     </ul>
   </section>
 
+<<<<<<< HEAD
   <!-- Section: Search Recall -->
   <section id="search" class="section section-search red darken-1 white-text center scrollspy">
     <div class="container">
@@ -202,6 +203,20 @@
               </fieldset>
               <textarea class="recallOutput"></textarea>
             </form>
+=======
+
+
+
+
+  <!-- Section: Search -->
+  <section id="search" class="section section-search red darken-2 white-text center scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h3 class="chkRecall">Check for Recalls</h3>
+          <div class="input-field">
+            <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="Make, Year, Model">
+>>>>>>> e853d16aa26cc427901152ac1fed776acc9e98f8
           </div>
         </div>
       </div>
@@ -417,10 +432,17 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-BMvomv5ztavXsOGpwZABlmm38t1DOm8&libraries=places&callback=initMap">
     </script>
   
+<<<<<<< HEAD
 
 
 
 
+=======
+
+
+
+
+>>>>>>> e853d16aa26cc427901152ac1fed776acc9e98f8
   <!-- Javascript -->
   <script>
 // Sidenav
@@ -451,6 +473,7 @@ jQuery(document).ready(function(){
     const ss = document.querySelectorAll('.scrollspy');
     M.ScrollSpy.init(ss, {});
 
+<<<<<<< HEAD
 // search select initialization script
 jQuery(document).ready(function(){
     jQuery('select').formSelect();
@@ -472,6 +495,21 @@ function initMap() {
       fields: ['name', 'formatted_phone_number', 'formatted_address', 'place_id', 'geometry', 'opening_hours']
     };
 
+=======
+// Map for API 
+
+function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 34.2083382, lng: -118.2344834},
+      zoom: 18
+    });
+
+    var request = {
+      placeId: 'ChIJO48xBmzqwoARfxv3V4Ijryk',
+      fields: ['name', 'formatted_phone_number', 'formatted_address', 'place_id', 'geometry', 'opening_hours']
+    };
+
+>>>>>>> e853d16aa26cc427901152ac1fed776acc9e98f8
     var infowindow = new google.maps.InfoWindow();
     var service = new google.maps.places.PlacesService(map);
 
