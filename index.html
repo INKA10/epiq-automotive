@@ -13,7 +13,6 @@
   <!-- Javascript -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Epiq Automotive</title>
@@ -371,74 +370,90 @@
 
 
 
-<<<<<<< HEAD
   <!--JavaScript at end of body for optimized loading-->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-  <script src="script.js"></script>
-
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-BMvomv5ztavXsOGpwZABlmm38t1DOm8&libraries=places&callback=initMap">
     </script>
   
-=======
 
 
 
 
   <!-- Javascript -->
   <script>
-        // Sidenav
-        const sideNav = document.querySelector('.sidenav');
-        M.Sidenav.init(sideNav, {});
+// Sidenav
+const sideNav = document.querySelector('.sidenav');
+    M.Sidenav.init(sideNav, {});
 
-        // Slider
-        const slider = document.querySelector('.slider');
-        M.Slider.init(slider, {
-        indicators: false,
-        height: 500,
-        transition: 500,
-        interval: 6000
+    // Slider
+    const slider = document.querySelector('.slider');
+    M.Slider.init(slider, {
+      indicators: false,
+      height: 500,
+      transition: 500,
+      interval: 6000
+    });
+
+
+// modal script
+
+$(document).ready(function(){
+          $('.modal').modal();
         });
 
-        // modal script
-        $(document).ready(function(){
-                $('.modal').modal();
-                });
 
+    // Material Boxed
+    const mb = document.querySelectorAll('.materialboxed');
+    M.Materialbox.init(mb, {});
 
-        // Material Boxed
-        const mb = document.querySelectorAll('.materialboxed');
-        M.Materialbox.init(mb, {});
+    // ScrollSpy
+    const ss = document.querySelectorAll('.scrollspy');
+    M.ScrollSpy.init(ss, {});
 
-        // ScrollSpy
-        const ss = document.querySelectorAll('.scrollspy');
-        M.ScrollSpy.init(ss, {});
-        
-        //Vehicle Maintenance API
-        //Vehicle Maintenance API Authorization
-        $.ajax({
-        "content-type":"application/json",
-        "authorization":"Basic MDE4OTcwM2UtZWVmMy00ZGU5LWFkMzAtYjMzMjI3NzRlYWVk",
-        "partner-token":"a69fba14b6b34e8f88229501cced6446"
+// Map for API 
+
+function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 34.2083382, lng: -118.2344834},
+      zoom: 18
+    });
+
+    var request = {
+      placeId: 'ChIJO48xBmzqwoARfxv3V4Ijryk',
+      fields: ['name', 'formatted_phone_number', 'formatted_address', 'place_id', 'geometry', 'opening_hours']
+    };
+
+    var infowindow = new google.maps.InfoWindow();
+    var service = new google.maps.places.PlacesService(map);
+
+    service.getDetails(request, function(place, status) {
+      if (status === google.maps.places.PlacesServiceStatus.OK) {
+        var marker = new google.maps.Marker({
+          map: map,
+          position: place.geometry.location
         });
-        
-        // function vehicleMaintenance (schedule){
-        //     var queryURL = "http://api.carmd.com/v3.0/maintlist?vin=" + userVin;
-        // }
-        //     $.ajax({
-        //     url: queryURL,
-        //     method: "GET"
-        //     }
-
-
+        google.maps.event.addListener(marker, 'click', function() {
+            
+          infowindow.setContent('<div style="color:black;"><strong>' + 
+            place.name + '</strong><br>' +
+            place.formatted_address + '<br>' +
+            place.formatted_phone_number + '<br>' +
+            place.opening_hours.periods[1].open.time + "-" +place.opening_hours.periods[1].close.time + '</div>');
+            
+          infowindow.open(map, this);
+    
+        });
+      }
+    });
+  }
     </script>
     <script>
         $(document).ready(function(){
             $('#car-carousel').carousel();
             });
     </script>
->>>>>>> dec32e43559cfd622c14467fde05023841f83990
 </body>
 
 </html>
